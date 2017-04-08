@@ -14,18 +14,14 @@
 Angular1 Star Rating is a >1.5 Angular component written in typescript.   
 It is based on [css-star-rating](https://github.com/BioPhoton/css-star-rating), a fully featured and customizable css only star rating component written in scss.  
 
-![Angular1-Star-Rating](https://raw.githubusercontent.com/BioPhoton/angular1-star-rating/master/resources/example-usage.gif)
-
-## DEMO
-- [x] [Example-App](https://github.com/BioPhoton/angular1-star-rating/tree/master/examples/angular1)  
-- [x] [Example-App-Plnkr](https://run.plnkr.co/plunks/2tw2z7/)  
+![Ionic1-Star-Rating](https://raw.githubusercontent.com/BioPhoton/ionic1-star-rating/master/resources/example-usage.gif)
 
 ##Related Projects
 
-| Css | ionic 1 (Angular1 >=1.5)| Ionic (Angular >=2) |
-|---  |---	    |--- 	       |
-| <img src="https://raw.githubusercontent.com/BioPhoton/angular1-star-rating/dev/resources/family/css3.png" width="100"> | <img src="https://raw.githubusercontent.com/BioPhoton/angular1-star-rating/dev/resources/family/angular1.png" width="100"> | <img src="https://raw.githubusercontent.com/BioPhoton/angular1-star-rating/dev/resources/family/angular.png" width="80"> |
-| [Css Star Rating](https://github.com/BioPhoton/css-star-rating) | [Angular1 Star Rating](https://github.com/BioPhoton/angular1-star-rating) | [Angular Star Rating](https://github.com/BioPhoton/angular-star-rating) |
+| Css | ionic 1 (Angular1 >=1.5)|  Ionic (Angular >=2) | (Ionic1 >=1.5)|
+|---  |---	    |--- 	  |---      |
+| <img src="https://raw.githubusercontent.com/BioPhoton/angular1-star-rating/master/resources/family/css3.png" width="100"> | <img src="https://raw.githubusercontent.com/BioPhoton/angular1-star-rating/master/resources/family/angular1.png" width="100"> | <img src="https://raw.githubusercontent.com/BioPhoton/angular1-star-rating/master/resources/family/angular.png" width="80"> | <img src="https://raw.githubusercontent.com/BioPhoton/angular1-star-rating/master/resources/family/ionic1.png" width="80"> |
+| [Css Star Rating](https://github.com/BioPhoton/css-star-rating) | [Angular1 Star Rating](https://github.com/BioPhoton/angular1-star-rating) | [Angular Star Rating](https://github.com/BioPhoton/angular-star-rating) |[Ionic1 Star Rating](https://github.com/BioPhoton/ionic1-star-rating) |
 
 ## Features
 This module implements all Features from [CSS-STAR-RATING](https://github.com/BioPhoton/css-star-rating).
@@ -50,6 +46,7 @@ It also provides callbacks for all calculation functions used in the component a
 - [x] **getHalfStarVisible** - Custom function to calculate value for displaying half stars or not
 - [x] **onClick** - Event emitter for onClick action
 - [x] **onRatingChange** - Event emitter for onRatingChange event
+- [x] **onHover** - Event emitter for onHover gestures
 
 ## Browser support
 
