@@ -1,0 +1,15 @@
+chore
+examples
+resources
+coverage
+typings
+.codeclimate.yml
+.gitignore
+.idea
+.travis.yml
+bower.json
+gulpfile.js
+karma.conf.js
+tsconfig.json
+typings.json
+webpack.config.js

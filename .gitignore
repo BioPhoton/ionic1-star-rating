@@ -1,0 +1,12 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+.idea/
+
+node_modules/
+typings/
+docs/
+
+coverage/
+sc5-styleguide/
+/npm-debug.log
