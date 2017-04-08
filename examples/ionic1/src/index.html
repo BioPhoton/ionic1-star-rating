@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>JobRocker</title>
+
+
+  <!-- endbower -->
+
+  <!-- endbuild -->
+
+  <!-- build:css assets/css/app.bundle.css -->
+
+  <!-- inject:css -->
+  <!-- endinject -->
+
+  <!-- endbuild -->
+
+
+  <!-- hotlinks start-->
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+  <!-- hotlinks end-->
+
+
+  <!-- build:js assets/js/lib.bundle.js -->
+
+  <!-- inject:config:js -->
+  <!-- endinject -->
+
+  <!-- static lib references start -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <!-- needed for angular-stripe-->
+  <!-- static lib references end -->
+
+  <!-- bower:js -->
+
+  <!-- endbower -->
+
+  <!-- endbuild -->
+
+  <!-- build:js assets/js/app.bundle.js -->
+
+  <!-- static script references start -->
+
+  <!-- static script references end -->
+
+  <!-- inject:js -->
+  <!-- endinject -->
+
+  <!-- app -->
+  <script src="app/app.routing.config.js"></script>
+  <script src="app/app.run.js"></script>
+  <script src="app/index.js"></script>
+
+
+  <!-- common/star-rating
+  <script src="app/common/star-rating/star-rating.controller.js"></script>
+  <script src="app/common/star-rating/star-rating.component.js"></script>
+  <script src="app/common/star-rating/star-rating.structs.js"></script>
+  <script src="app/common/star-rating/index.js"></script>
+-->
+
+  <!-- common -->
+  <script src="app/common/common.controller.js"></script>
+  <script src="app/common/common.component.js"></script>
+
+  <!-- common-->
+  <script src="app/common/index.js"></script>
+
+
+  <!-- components.init -->
+  <script src="app/components/init/init.controller.js"></script>
+  <script src="app/components/init/init.component.js"></script>
+  <script src="app/components/init/index.js"></script>
+
+  <!-- components-->
+  <script src="app/components/index.js"></script>
+
+  <!-- inject:templates:js -->
+  <!-- endinject -->
+
+  <!-- endbuild -->
+
+</head>
+<body ng-app="app">
+
+<ion-nav-view></ion-nav-view>
+
+<overlay-message-comp></overlay-message-comp>
+
+
+<!-- font preloading -->
+
+<!-- image preload -->
+
+</body>
+</html>

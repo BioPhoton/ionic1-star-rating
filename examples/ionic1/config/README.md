@@ -1,0 +1,1 @@
+version attr should only be present in base.config.js
