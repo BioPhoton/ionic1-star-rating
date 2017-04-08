@@ -1,0 +1,51 @@
+{
+  "name": "angular1-star-rating",
+  "version": "1.2.10",
+  "description": "Angular Star Rating is a Angular1.5 component written in typescript.",
+  "main": "dist/index.js",
+  "authors": [
+    "Michael Hladky"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Rating",
+    "Stars",
+    "Star Rating",
+    "Star-Rating",
+    "Starrating",
+    "Icon",
+    "SVG",
+    "CSS",
+    "Pure CSS",
+    "CSS only",
+    "JavaScript",
+    "Angular",
+    "Angular Component",
+    "Angular1",
+    "Angular1 Component",
+    "Angular1.5",
+    "Angular1.5 Component",
+    "Typescript"
+  ],
+  "homepage": "https://github.com/BioPhoton/angular1-star-rating",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "chore",
+    "examples",
+    "coverage",
+    "sc5-styleguide",
+    "typings",
+    ".gitignore",
+    ".idea",
+    "gulpfile.js",
+    "karma.conf.js",
+    "typings.json",
+    "tsconfig.json",
+    "webpack.config.js"
+  ],
+  "dependencies": {}
+}
