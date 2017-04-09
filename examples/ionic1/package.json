@@ -1,12 +1,12 @@
 {
-  "name": "JobRocker",
-  "version": "1.0.50",
+  "name": "tests",
+  "version": "0.0.0",
   "author": "Michael Hladky <michael@hladky.at>",
-  "description": "JobRocker",
+  "description": "Testing star rating",
   "private": true,
   "dependencies": {
     "@ionic/cloud": "^0.13.0",
-    "angular1-star-rating": "^1.2.10",
+    "ionic1-star-rating": "1.2.11-beta.0",
     "css-star-rating": "^1.1.3",
     "gulp": "^3.5.6",
     "gulp-concat": "^2.2.0",
