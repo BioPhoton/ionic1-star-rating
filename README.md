@@ -18,10 +18,10 @@ It is based on [css-star-rating](https://github.com/BioPhoton/css-star-rating), 
 
 ##Related Projects
 
-| Css | Angular 1 (Angular1 >=1.5)|  Angular (Angular >=2) | (Ionic 1 >=1.5)|
+| Css | Angular 1 |  Angular | Ionic 1 |
 |---  |---	    |--- 	  |---      |
 | <img src="https://raw.githubusercontent.com/BioPhoton/ionic1-star-rating/master/resources/family/css3.png" width="100"> | <img src="https://raw.githubusercontent.com/BioPhoton/ionic1-star-rating/master/resources/family/angular1.png" width="100"> | <img src="https://raw.githubusercontent.com/BioPhoton/ionic1-star-rating/master/resources/family/angular.png" width="80"> | <img src="https://raw.githubusercontent.com/BioPhoton/ionic1-star-rating/master/resources/family/ionic1.png" width="80"> |
-| [Css Star Rating](https://github.com/BioPhoton/css-star-rating) | [Ionic1 Star Rating](https://github.com/BioPhoton/ionic1-star-rating) | [Angular Star Rating](https://github.com/BioPhoton/angular-star-rating) |[Ionic1 Star Rating](https://github.com/BioPhoton/ionic1-star-rating) |
+| [Css Star Rating](https://github.com/BioPhoton/css-star-rating) | [Angular1 Star Rating](https://github.com/BioPhoton/angular1-star-rating) | [Angular Star Rating](https://github.com/BioPhoton/angular-star-rating) |[Ionic1 Star Rating](https://github.com/BioPhoton/ionic1-star-rating) |
 
 ## Features
 Beside all other features listed below it is optimized for mobile which means it implements touch gestures over ionics built in gestures. 
