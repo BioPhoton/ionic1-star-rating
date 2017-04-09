@@ -1,3 +1,13 @@
+<a name="1.2.12"></a>
+## [1.2.12](https://github.com/BioPhoton/ionic1-star-rating/compare/v1.2.11-beta.0...v1.2.12) (2017-04-09)
+
+
+### Bug Fixes
+
+* **removed code:** removed old code ([d930f61](https://github.com/BioPhoton/ionic1-star-rating/commit/d930f61))
+
+
+
 <a name="1.2.9"></a>
 ## [1.2.9](https://github.com/BioPhoton/angular1-star-rating/compare/v1.2.8...v1.2.9) (2017-02-25)
 
