@@ -11,6 +11,7 @@ describe('Star rating controller', () => {
     let $componentController;
     let starRatingCtrl;
     let scope;
+    let element;
 
     let negativeValue: number = -1;
     let defaultValue: number = 0;
@@ -26,18 +27,11 @@ describe('Star rating controller', () => {
 
     beforeEach(angular.mock.module('star-rating'));
 
-    beforeEach(inject(($rootScope, _$componentController_) => {
+    beforeEach(inject(($rootScope, $element, _$componentController_) => {
         scope = $rootScope.$new();
+        element = $element;
         $componentController = _$componentController_;
     }));
-
-    it('should expose a `starRatingComp` object', () => {
-        starRatingCtrl = getStarRatingCtrl();
-
-        expect(starRatingCtrl).toBeDefined();
-        expect(typeof starRatingCtrl.onStarClicked).toBe('function');
-    });
-
 
     //////////////////////////////////////////////////////////////////////////////
 
@@ -52,7 +46,9 @@ describe('Star rating controller', () => {
      */
     function getStarRatingCtrl(bindingsProperties?: IStarRatingCompBindings): any {
         bindingsProperties = angular.copy(bindingsProperties) || <IStarRatingCompBindings>{};
-        return $componentController('starRatingComp', null, bindingsProperties);
+        element = angular.element('<div id="{{$ctrl.id}}" class="rating" ng-class="$ctrl.getComponentClassNames()"><div ng-show="$ctrl.labelText" class="label-value">{{$ctrl.labelText}}</div><div class="star-container"><div class="star" id="{{star}}" ng-repeat="star in $ctrl.stars track by $index" ng-click="$ctrl.onStarClicked(star)"><i class="star-empty {{$ctrl.classEmpty}}" ng-if="!$ctrl.svgVisible()"></i><i class="star-half {{$ctrl.classHalf}}" ng-if="!$ctrl.svgVisible()"></i><i class="star-filled {{$ctrl.classFilled}}" ng-if="!$ctrl.svgVisible()"></i><svg class="star-empty {{$ctrl.classEmpty}}" ng-if="$ctrl.svgVisible()"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{$ctrl.pathEmpty}}"></use></svg><svg class="star-half {{$ctrl.classHalf}}" ng-if="$ctrl.svgVisible()"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{$ctrl.pathHalf}}"></use></svg><svg class="star-filled {{$ctrl.classFilled}}" ng-if="$ctrl.svgVisible()"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{$ctrl.pathFilled}}"></use></svg></div></div></div>');
+
+        return $componentController('starRatingComp', {$element:element}, bindingsProperties);
     }
 
 });
