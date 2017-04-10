@@ -1,3 +1,13 @@
+<a name="1.2.13"></a>
+## [1.2.13](https://github.com/BioPhoton/ionic1-star-rating/compare/v1.2.12...v1.2.13) (2017-04-10)
+
+
+### Bug Fixes
+
+* **gestures:** fix unregister for gesture callbacks ([4dc9b69](https://github.com/BioPhoton/ionic1-star-rating/commit/4dc9b69))
+
+
+
 <a name="1.2.12"></a>
 ## [1.2.12](https://github.com/BioPhoton/ionic1-star-rating/compare/v1.2.11-beta.0...v1.2.12) (2017-04-09)
 
