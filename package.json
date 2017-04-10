@@ -4,7 +4,6 @@
   "license": "MIT",
   "keywords": [
     "Ionic",
-    "Ionic1.6",
     "Rating",
     "Stars",
     "Star Rating",
@@ -24,7 +23,7 @@
     "Angular1.6 Component",
     "Typescript"
   ],
-  "description": "Ionic1 Star Rating is a Ionic specific Angular1.6 component written in typescript, based on css only techniques written in scss",
+  "description": "This is a StarRating component which provides a complete set of features based on modern web technologies. The js part is written in typescript and well tested. Nearly all logic depending on the visual state is developed over css3 techniques. The js part just adds and removes class names. It is well maintained and is created under the open source MIT License.",
   "author": "Michael Hladky",
   "contributors": [
     {
