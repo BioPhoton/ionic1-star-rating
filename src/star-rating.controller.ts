@@ -58,7 +58,7 @@ export class IonicStarRatingController extends StarRatingController {
     }
 
     $onDestroy() {
-        this.unsubscribeToGestures
+        this.unsubscribeToGestures();
     }
 
     protected unsubscribeToGestures() {
